@@ -13,6 +13,7 @@ for _ in range(n_lines):
 
     elif operation[0] == '3' and numbers:
         print(max(numbers))
+
     elif operation[0] == '4' and numbers:
         print(min(numbers))
 
