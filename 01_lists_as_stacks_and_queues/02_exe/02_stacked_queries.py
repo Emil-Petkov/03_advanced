@@ -23,6 +23,7 @@
 
 
 
+
 n_lines = int(input())
 numbers = []
 
