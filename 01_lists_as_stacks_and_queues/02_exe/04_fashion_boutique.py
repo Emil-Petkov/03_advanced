@@ -1,3 +1,4 @@
+
 from collections import deque
 
 clothes_in_the_box = deque(map(int, input().split()))
