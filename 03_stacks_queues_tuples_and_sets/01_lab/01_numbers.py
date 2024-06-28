@@ -23,3 +23,4 @@ for _ in range(int(input())):
 
 print(*sorted(first_set), sep=', ')
 print(*sorted(second_set), sep=', ')
+
