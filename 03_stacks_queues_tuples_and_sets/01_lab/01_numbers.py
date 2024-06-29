@@ -2,6 +2,7 @@
 
 
 
+
 first_set = set(int(x) for x in input().split())
 second_set = set(int(x) for x in input().split())
 
