@@ -6,6 +6,7 @@
 
 
 
+
 rows = int(input())
 
 matrix = []
