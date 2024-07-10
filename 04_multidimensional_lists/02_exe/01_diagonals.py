@@ -21,8 +21,3 @@ result_secondary_diagonal = [item for sublist in secondary_diagonal for item in 
 
 print(f'Primary diagonal: {", ".join(map(str, result_primary_diagonal))}. Sum: {sum(result_primary_diagonal)}')
 print(f'Secondary diagonal: {", ".join(map(str, result_secondary_diagonal))}. Sum: {sum(result_secondary_diagonal)}')
-
-
-
-
-
