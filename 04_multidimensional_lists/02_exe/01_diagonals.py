@@ -1,3 +1,7 @@
+
+
+
+
 rows = int(input())
 
 matrix = []
