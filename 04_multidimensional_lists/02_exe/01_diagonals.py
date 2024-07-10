@@ -18,6 +18,7 @@
 
 
 
+
 rows = int(input())
 
 matrix = []
