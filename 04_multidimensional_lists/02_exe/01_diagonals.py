@@ -2,6 +2,7 @@
 
 
 
+
 rows = int(input())
 
 matrix = []
