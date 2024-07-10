@@ -20,6 +20,7 @@
 
 
 
+
 rows = int(input())
 
 matrix = []
