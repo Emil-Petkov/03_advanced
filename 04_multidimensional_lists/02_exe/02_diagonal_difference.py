@@ -2,9 +2,10 @@ rows = int(input())
 
 matrix = [[int(el) for el in input().split()] for _ in range(rows)]
 
-primary_diagonal = [matrix[r][r] for r in range(rows)]
-secondary_diagonal = [matrix[r][rows - r - 1] for r in range(rows)]
+primary_diagonal_sum, secondary_diagonal_sum = 0, 0
 
-diagonal_difference = abs(sum(primary_diagonal) - sum(secondary_diagonal))
+for i in range(rows):
+    primary_diagonal_sum += matrix[i][i]
+    secondary_diagonal_sum += matrix[i][rows - i - 1]
 
-print(diagonal_difference)
+print(abs(primary_diagonal_sum - secondary_diagonal_sum))
