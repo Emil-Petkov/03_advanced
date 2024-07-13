@@ -2,12 +2,10 @@ def even_odd(*args):
     command = args[-1]
 
     if command == 'even':
-        even_numbers = [num for num in args if isinstance(num, int) and num % 2 == 0]
-        return even_numbers
+        return [num for num in args if isinstance(num, int) and num % 2 == 0]
 
     elif command == 'odd':
-        odd_numbers = [num for num in args if isinstance(num, int) and num % 2 != 0]
-        return odd_numbers
+        return [num for num in args if isinstance(num, int) and num % 2 != 0]
 
 
 print(even_odd(1, 2, 3, 4, 5, 6, "even"))
