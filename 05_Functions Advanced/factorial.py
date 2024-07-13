@@ -7,4 +7,4 @@ def factorial(number):
 
 print(factorial(5))
 
-# better way is for loop
+# the better way is to use a for loop
