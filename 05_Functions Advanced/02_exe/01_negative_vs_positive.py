@@ -1,6 +1,6 @@
 def check_numbers(numbers):
-    positive_numbers_result = sum([x for x in numbers if x > 0])
-    negative_numbers_result = sum([x for x in numbers if x < 0])
+    positive_numbers_result = sum(x for x in numbers if x > 0)
+    negative_numbers_result = sum(x for x in numbers if x < 0)
 
     print(f'{negative_numbers_result}\n{positive_numbers_result}')
 
