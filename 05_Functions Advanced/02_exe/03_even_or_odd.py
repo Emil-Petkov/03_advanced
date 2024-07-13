@@ -1,5 +1,5 @@
 def even_odd(*args):
-    command = next(com for com in args if isinstance(com, str))
+    command = args[-1]
 
     if command == 'even':
         even_numbers = [num for num in args if isinstance(num, int) and num % 2 == 0]
