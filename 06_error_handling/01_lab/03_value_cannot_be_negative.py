@@ -3,6 +3,7 @@
 
 
 
+
 class ValueCannotBeNegative(Exception):
     pass
 
