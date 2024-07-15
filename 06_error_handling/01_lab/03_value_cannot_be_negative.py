@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 class ValueCannotBeNegative(Exception):
     pass
 
