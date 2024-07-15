@@ -4,6 +4,7 @@
 
 
 
+
 class ValueCannotBeNegative(Exception):
     pass
 
